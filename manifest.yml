@@ -1,7 +1,7 @@
 applications:
 - disk_quota: 256M
-  host: demoApp
-  name: demoApp
+  host: demoDeployApp
+  name: demoDeployApp
   command: node app.js
   path: .
   domain: mybluemix.net

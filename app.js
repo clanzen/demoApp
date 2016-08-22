@@ -41,6 +41,6 @@ app.listen(port, host, function() {
 //------------------------------------------------------------------------------
 // express routes: get info logging
 //------------------------------------------------------------------------------
-app.get('/helloworld', function(req, res) {
+app.get('/', function(req, res) {
     res.send('Hello World!');
 })

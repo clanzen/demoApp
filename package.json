@@ -1,5 +1,5 @@
 {
-	"name": "demoApp",
+	"name": "demoDeployApp",
 	"version": "0.0.1",
 	"description": "Sample node application used for demos",
 	"scripts": {
