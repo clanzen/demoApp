@@ -1,0 +1,23 @@
+{
+	"name": "demoApp",
+	"version": "0.0.1",
+	"description": "Sample node application used for demos",
+	"scripts": {
+		"start": "node app.js"
+	},
+	"dependencies": {
+		"body-parser": "1.12.3",
+		"cfenv": "1.0.x",
+		"coffee-script": "latest",
+		"connect": "latest",
+		"express": "latest",
+		"express.io": "latest",
+		"http": "0.0.0",
+		"https": "1.0.0",
+		"path": "0.11.14",
+		"request": "2.58.0",
+		"superagent": "1.2.0",
+		"url": "0.10.3"
+	},
+	"repository": {}
+}
