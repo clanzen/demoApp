@@ -35,6 +35,6 @@ app.get('/crash', function(req, res) {
 //------------------------------------------------------------------------------
 // Function to assist in forcing this app to crash.
 //------------------------------------------------------------------------------
-var crashIt = function() { 
+var crashIt = function() {  
 	some.that.does.not.exist(0);
 }
