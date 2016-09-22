@@ -30,7 +30,7 @@ app.get('/', function(req, res) {
 app.get('/crash', function(req, res) {
 	setInterval(crashIt, 1);
     res.send('App is crashing now.');
-});
+}); 
 
 //------------------------------------------------------------------------------
 // Function to assist in forcing this app to crash.
