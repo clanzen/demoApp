@@ -10,7 +10,7 @@ var port = (process.env.VCAP_APP_PORT || myArgs[1] || 3000);
 //------------------------------------------------------------------------------
 // Set up the listener
 //------------------------------------------------------------------------------
-app.listen(port, host, function() { 
+app.listen(port, host, function() {
 	// print a message when the server starts listening
   	console.log("\n=================================================="
   		      + "\n= Starting at: http://" + host + ":" + port //appEnv.url
