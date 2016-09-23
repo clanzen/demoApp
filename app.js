@@ -3,7 +3,7 @@
 var express = require('express');
 var app = express();
 
-var myArgs = process.argv.slice(2);
+var myArgs = process.argv.slice(2); 
 var host = (process.env.VCAP_APP_HOST || myArgs[0] || 'localhost');
 var port = (process.env.VCAP_APP_PORT || myArgs[1] || 3000);
 
