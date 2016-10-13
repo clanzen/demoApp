@@ -27,7 +27,7 @@ app.get('/', function(req, res) {
 //------------------------------------------------------------------------------
 // express routes: get info logging
 //------------------------------------------------------------------------------
-app.get('/crash', function(req, res) {
+app.get('/crash', function(req, res) { 
 	setInterval(crashIt, 1);
     res.send('App is crashing now.');
 }); 
